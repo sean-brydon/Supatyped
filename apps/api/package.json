@@ -1,0 +1,23 @@
+{
+  "name": "@supatyped/api",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.9.1",
+    "@trpc/server": "^9.18.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.2",
+    "hash-wasm": "^4.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "zod": "^3.11.6"
+  },
+  "devDependencies": {
+    "@supatyped/config": "*",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "eslint": "^8.8.0",
+    "prisma": "^3.9.1"
+  }
+}
